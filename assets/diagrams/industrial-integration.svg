@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="754" viewBox="0 0 1200 754">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748B"/></marker></defs>
+<rect x="0.5" y="0.5" width="1199" height="753" rx="16" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text x="40" y="52" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700" fill="#0F172A" text-anchor="start">Industrial integration (production context)</text>
+<text x="40" y="80" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" fill="#64748B" text-anchor="start">How inspection results reached the machine and the operators in the original production system</text>
+<rect x="40" y="112" width="1120" height="118" rx="14" fill="#F5F3FF" stroke="#C4B5FD" stroke-width="1.5"/>
+<text x="60" y="146" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#6D28D9" text-anchor="start">Vision</text>
+<text x="60" y="212" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="500" fill="#64748B" text-anchor="start">vision system</text>
+<rect x="230.0" y="126" width="451.0" height="90" rx="10" fill="#FFFFFF" stroke="#C4B5FD"/>
+<text x="242.0" y="150" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Multi-camera inspection</text>
+<text x="242.0" y="171" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Anomaly detection per camera region</text>
+<rect x="693.0" y="126" width="451.0" height="90" rx="10" fill="#FFFFFF" stroke="#C4B5FD"/>
+<text x="705.0" y="150" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Decision</text>
+<text x="705.0" y="171" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Defect found → NG signal</text>
+<line x1="600.0" y1="233" x2="600.0" y2="255" stroke="#64748B" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="40" y="260" width="1120" height="118" rx="14" fill="#FEF2F2" stroke="#FCA5A5" stroke-width="1.5"/>
+<text x="60" y="294" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#B91C1C" text-anchor="start">Controller</text>
+<text x="60" y="360" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="500" fill="#64748B" text-anchor="start">ESP32</text>
+<rect x="230.0" y="274" width="451.0" height="90" rx="10" fill="#FFFFFF" stroke="#FCA5A5"/>
+<text x="242.0" y="298" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Line response</text>
+<text x="242.0" y="319" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Machine stop, warning light, audible alarm</text>
+<rect x="693.0" y="274" width="451.0" height="90" rx="10" fill="#FFFFFF" stroke="#FCA5A5"/>
+<text x="705.0" y="298" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Motor monitoring &amp; control</text>
+<text x="705.0" y="319" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Speed measured and set</text>
+<line x1="600.0" y1="381" x2="600.0" y2="403" stroke="#64748B" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="40" y="408" width="1120" height="118" rx="14" fill="#FEF2F2" stroke="#FCA5A5" stroke-width="1.5"/>
+<text x="60" y="442" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#B91C1C" text-anchor="start">Field devices</text>
+<text x="60" y="508" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="500" fill="#64748B" text-anchor="start">Modbus RTU</text>
+<rect x="230.0" y="422" width="451.0" height="90" rx="10" fill="#FFFFFF" stroke="#FCA5A5"/>
+<text x="242.0" y="446" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">VFD / inverter</text>
+<text x="242.0" y="467" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Motor speed over Modbus RTU</text>
+<rect x="693.0" y="422" width="451.0" height="90" rx="10" fill="#FFFFFF" stroke="#FCA5A5"/>
+<text x="705.0" y="446" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Stop, light, alarm</text>
+<text x="705.0" y="467" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Defects caught early enough for operator intervention</text>
+<line x1="600.0" y1="529" x2="600.0" y2="551" stroke="#64748B" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="40" y="556" width="1120" height="118" rx="14" fill="#F0FDFA" stroke="#5EEAD4" stroke-width="1.5"/>
+<text x="60" y="590" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#0F766E" text-anchor="start">Monitoring</text>
+<text x="60" y="656" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="500" fill="#64748B" text-anchor="start">MQTT</text>
+<rect x="230.0" y="570" width="451.0" height="90" rx="10" fill="#FFFFFF" stroke="#5EEAD4"/>
+<text x="242.0" y="594" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Telemetry</text>
+<text x="242.0" y="615" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Published via MQTT</text>
+<rect x="693.0" y="570" width="451.0" height="90" rx="10" fill="#FFFFFF" stroke="#5EEAD4"/>
+<text x="705.0" y="594" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Web monitoring</text>
+<text x="705.0" y="615" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Line and motor status for operators</text>
+<text x="40" y="720" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#64748B" text-anchor="start">Concept view only: wiring, register maps, network details and hosts are intentionally omitted.</text>
+</svg>

@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="488" viewBox="0 0 1200 488">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748B"/></marker></defs>
+<rect x="0.5" y="0.5" width="1199" height="487" rx="16" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text x="40" y="52" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700" fill="#0F172A" text-anchor="start">AI station pipeline (CAM-01 knit face)</text>
+<text x="40" y="80" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" fill="#64748B" text-anchor="start">Unsupervised anomaly detection turned into measured, explainable defects</text>
+<line x1="239.2" y1="171.0" x2="265.2" y2="171.0" stroke="#64748B" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="470.4" y1="171.0" x2="496.4" y2="171.0" stroke="#64748B" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="701.5999999999999" y1="171.0" x2="727.5999999999999" y2="171.0" stroke="#64748B" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="932.8" y1="171.0" x2="958.8" y2="171.0" stroke="#64748B" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="1062.3999999999999" y1="234" x2="1062.3999999999999" y2="280" stroke="#64748B" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="960.8" y1="345.0" x2="934.8" y2="345.0" stroke="#64748B" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="729.5999999999999" y1="345.0" x2="703.5999999999999" y2="345.0" stroke="#64748B" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="498.4" y1="345.0" x2="472.4" y2="345.0" stroke="#64748B" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="267.2" y1="345.0" x2="241.2" y2="345.0" stroke="#64748B" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="40.0" y="112" width="195.2" height="118" rx="12" fill="#F1F5F9" stroke="#94A3B8" stroke-width="1.5"/>
+<rect x="40.0" y="112" width="6" height="118" rx="3" fill="#475569"/>
+<circle cx="70.0" cy="140" r="13" fill="#475569"/>
+<text x="70.0" y="145" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="92.0" y="145" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">Camera frame</text>
+<text x="58.0" y="171" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">640×480 at 0.1 mm/px</text>
+<text x="58.0" y="187" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">(simulated)</text>
+<rect x="271.2" y="112" width="195.2" height="118" rx="12" fill="#EFF6FF" stroke="#93C5FD" stroke-width="1.5"/>
+<rect x="271.2" y="112" width="6" height="118" rx="3" fill="#1D4ED8"/>
+<circle cx="301.2" cy="140" r="13" fill="#1D4ED8"/>
+<text x="301.2" y="145" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="323.2" y="145" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">ROI crop</text>
+<text x="289.2" y="171" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">Inspect / ignore regions</text>
+<text x="289.2" y="187" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">per camera</text>
+<rect x="502.4" y="112" width="195.2" height="118" rx="12" fill="#F5F3FF" stroke="#C4B5FD" stroke-width="1.5"/>
+<rect x="502.4" y="112" width="6" height="118" rx="3" fill="#6D28D9"/>
+<circle cx="532.4" cy="140" r="13" fill="#6D28D9"/>
+<text x="532.4" y="145" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="554.4" y="145" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">Patch-Gaussian</text>
+<text x="554.4" y="163" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">anomaly</text>
+<text x="520.4" y="189" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">Filter-bank patch features</text>
+<text x="520.4" y="205" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">vs. a Gaussian fitted on</text>
+<text x="520.4" y="221" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">good fabric</text>
+<rect x="733.5999999999999" y="112" width="195.2" height="118" rx="12" fill="#EFF6FF" stroke="#93C5FD" stroke-width="1.5"/>
+<rect x="733.5999999999999" y="112" width="6" height="118" rx="3" fill="#1D4ED8"/>
+<circle cx="763.5999999999999" cy="140" r="13" fill="#1D4ED8"/>
+<text x="763.5999999999999" y="145" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">4</text>
+<text x="785.5999999999999" y="145" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">Components</text>
+<text x="751.5999999999999" y="171" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">Anomaly mask to objects</text>
+<text x="751.5999999999999" y="187" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">above a minimum area</text>
+<rect x="964.8" y="112" width="195.2" height="118" rx="12" fill="#F5F3FF" stroke="#C4B5FD" stroke-width="1.5"/>
+<rect x="964.8" y="112" width="6" height="118" rx="3" fill="#6D28D9"/>
+<circle cx="994.8" cy="140" r="13" fill="#6D28D9"/>
+<text x="994.8" y="145" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">5</text>
+<text x="1016.8" y="145" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">Classification</text>
+<text x="982.8" y="171" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">Slub / knot / ladder with</text>
+<text x="982.8" y="187" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">confidence</text>
+<rect x="964.8" y="286" width="195.2" height="118" rx="12" fill="#FFF7ED" stroke="#FDBA74" stroke-width="1.5"/>
+<rect x="964.8" y="286" width="6" height="118" rx="3" fill="#C2410C"/>
+<circle cx="994.8" cy="314" r="13" fill="#C2410C"/>
+<text x="994.8" y="319" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">6</text>
+<text x="1016.8" y="319" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">Confidence</text>
+<text x="1016.8" y="337" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">filter</text>
+<text x="982.8" y="363" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">Drops weak objects before</text>
+<text x="982.8" y="379" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">the rules</text>
+<rect x="733.5999999999999" y="286" width="195.2" height="118" rx="12" fill="#FFF7ED" stroke="#FDBA74" stroke-width="1.5"/>
+<rect x="733.5999999999999" y="286" width="6" height="118" rx="3" fill="#C2410C"/>
+<circle cx="763.5999999999999" cy="314" r="13" fill="#C2410C"/>
+<text x="763.5999999999999" y="319" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">7</text>
+<text x="785.5999999999999" y="319" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">Area &amp; length</text>
+<text x="751.5999999999999" y="345" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">mm², mm from calibration</text>
+<rect x="502.4" y="286" width="195.2" height="118" rx="12" fill="#FFF7ED" stroke="#FDBA74" stroke-width="1.5"/>
+<rect x="502.4" y="286" width="6" height="118" rx="3" fill="#C2410C"/>
+<circle cx="532.4" cy="314" r="13" fill="#C2410C"/>
+<text x="532.4" y="319" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">8</text>
+<text x="554.4" y="319" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">Rules</text>
+<text x="520.4" y="345" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">area ≤ 2 mm², length ≤ 6</text>
+<text x="520.4" y="361" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">mm, score ≤ 1.5</text>
+<rect x="271.2" y="286" width="195.2" height="118" rx="12" fill="#FEFCE8" stroke="#FDE047" stroke-width="1.5"/>
+<rect x="271.2" y="286" width="6" height="118" rx="3" fill="#A16207"/>
+<circle cx="301.2" cy="314" r="13" fill="#A16207"/>
+<text x="301.2" y="319" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">9</text>
+<text x="323.2" y="319" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">AND</text>
+<text x="289.2" y="345" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">All rules of the station</text>
+<rect x="40.0" y="286" width="195.2" height="118" rx="12" fill="#FEFCE8" stroke="#FDE047" stroke-width="1.5"/>
+<rect x="40.0" y="286" width="6" height="118" rx="3" fill="#A16207"/>
+<circle cx="70.0" cy="314" r="13" fill="#A16207"/>
+<text x="70.0" y="319" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">10</text>
+<text x="92.0" y="319" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">GOOD / NG</text>
+<text x="58.0" y="345" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">Reasons as sentences</text>
+<rect x="40" y="447" width="14" height="14" rx="4" fill="#F1F5F9" stroke="#475569"/>
+<text x="62" y="458" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#475569" text-anchor="start">Input / output</text>
+<rect x="166" y="447" width="14" height="14" rx="4" fill="#EFF6FF" stroke="#1D4ED8"/>
+<text x="188" y="458" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#475569" text-anchor="start">Classical computer vision</text>
+<rect x="365" y="447" width="14" height="14" rx="4" fill="#F5F3FF" stroke="#6D28D9"/>
+<text x="387" y="458" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#475569" text-anchor="start">AI / model stage</text>
+<rect x="504" y="447" width="14" height="14" rx="4" fill="#FFF7ED" stroke="#C2410C"/>
+<text x="526" y="458" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#475569" text-anchor="start">Rules / validation</text>
+<rect x="656" y="447" width="14" height="14" rx="4" fill="#FEFCE8" stroke="#A16207"/>
+<text x="678" y="458" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#475569" text-anchor="start">Decision</text>
+</svg>

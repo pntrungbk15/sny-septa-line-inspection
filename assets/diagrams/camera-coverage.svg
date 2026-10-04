@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="718" viewBox="0 0 1200 718">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748B"/></marker></defs>
+<rect x="0.5" y="0.5" width="1199" height="717" rx="16" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text x="40" y="52" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700" fill="#0F172A" text-anchor="start">Seven stations, one verdict</text>
+<text x="40" y="80" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" fill="#64748B" text-anchor="start">Each failure mode gets the lighting and algorithm it needs; NG at any station rejects the section</text>
+<rect x="40" y="112" width="1120" height="118" rx="14" fill="#F5F3FF" stroke="#C4B5FD" stroke-width="1.5"/>
+<text x="60" y="146" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#6D28D9" text-anchor="start">Surface</text>
+<text x="60" y="212" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="500" fill="#64748B" text-anchor="start">anomaly + CV</text>
+<rect x="230.0" y="126" width="296.6666666666667" height="90" rx="10" fill="#FFFFFF" stroke="#C4B5FD"/>
+<text x="242.0" y="150" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">CAM-01 Knit face</text>
+<text x="242.0" y="171" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Low-angle ring light · anomaly model ·</text>
+<text x="242.0" y="186" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">slub, knot, ladder</text>
+<rect x="538.6666666666667" y="126" width="296.6666666666667" height="90" rx="10" fill="#FFFFFF" stroke="#C4B5FD"/>
+<text x="550.6666666666667" y="150" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">CAM-02 Coated face</text>
+<text x="550.6666666666667" y="171" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Coaxial light · anomaly + black-hat ·</text>
+<text x="550.6666666666667" y="186" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">scratch, lint</text>
+<rect x="847.3333333333334" y="126" width="296.6666666666667" height="90" rx="10" fill="#FFFFFF" stroke="#C4B5FD"/>
+<text x="859.3333333333334" y="150" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">CAM-05 Holes</text>
+<text x="859.3333333333334" y="171" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Backlight · threshold, components · hole</text>
+<text x="859.3333333333334" y="186" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">diameter, count</text>
+<line x1="600.0" y1="233" x2="600.0" y2="255" stroke="#64748B" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="40" y="260" width="1120" height="118" rx="14" fill="#EFF6FF" stroke="#93C5FD" stroke-width="1.5"/>
+<text x="60" y="294" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#1D4ED8" text-anchor="start">Geometry &amp; colour</text>
+<text x="60" y="360" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="500" fill="#64748B" text-anchor="start">measurement</text>
+<rect x="230.0" y="274" width="451.0" height="90" rx="10" fill="#FFFFFF" stroke="#93C5FD"/>
+<text x="242.0" y="298" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">CAM-03 Width &amp; edges</text>
+<text x="242.0" y="319" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Dark field · sub-pixel caliper · width, edge deviation, skew</text>
+<rect x="693.0" y="274" width="451.0" height="90" rx="10" fill="#FFFFFF" stroke="#93C5FD"/>
+<text x="705.0" y="298" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">CAM-04 Shade &amp; stains</text>
+<text x="705.0" y="319" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Diffuse dome · CIEDE2000 per zone · stain area</text>
+<line x1="600.0" y1="381" x2="600.0" y2="403" stroke="#64748B" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="40" y="408" width="1120" height="118" rx="14" fill="#EFF6FF" stroke="#93C5FD" stroke-width="1.5"/>
+<text x="60" y="442" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#1D4ED8" text-anchor="start">Identity &amp; print</text>
+<text x="60" y="508" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="500" fill="#64748B" text-anchor="start">matching + OCR</text>
+<rect x="230.0" y="422" width="451.0" height="90" rx="10" fill="#FFFFFF" stroke="#93C5FD"/>
+<text x="242.0" y="446" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">CAM-06 Label &amp; lot code</text>
+<text x="242.0" y="467" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Template match · OCR-lite · lot equals the order</text>
+<rect x="693.0" y="422" width="451.0" height="90" rx="10" fill="#FFFFFF" stroke="#93C5FD"/>
+<text x="705.0" y="446" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">CAM-07 Print registration</text>
+<text x="705.0" y="467" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">ORB + RANSAC vs golden artwork · offset, angle</text>
+<line x1="600.0" y1="529" x2="600.0" y2="551" stroke="#64748B" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="40" y="556" width="1120" height="118" rx="14" fill="#FEFCE8" stroke="#FDE047" stroke-width="1.5"/>
+<text x="60" y="590" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#A16207" text-anchor="start">Section decision</text>
+<rect x="230.0" y="570" width="914.0" height="90" rx="10" fill="#FFFFFF" stroke="#FDE047"/>
+<text x="242.0" y="594" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">GOOD / NG per section</text>
+<text x="242.0" y="615" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">NG if any station is NG; reasons, measurements and pipeline versions are recorded</text>
+</svg>
