@@ -82,13 +82,42 @@ Deeper notes on the anomaly model, measurement and rules: [docs/technical_overvi
 
 ![Dashboard in dark theme](assets/screenshots/dashboard-dark.png)
 
+![Mesh inspection in dark theme](assets/screenshots/mesh-04-inspect-dark.png)
+
 </details>
+
+## Mesh Inspection
+
+A second part of the portfolio implementation follows the **structure of the production system** more closely than
+the simulated line: **seven overlapping cameras** looking at the same mesh sample, **two lines with five mesh types
+each**, a **region of interest per camera** stored in source-image pixels, and **selectable anomaly methods** per mesh
+type. It works on image files; no camera is driven.
+
+| | |
+|---|---|
+| ![Mesh setup](assets/screenshots/mesh-01-setup.png) **Setup.** Seven cameras placed across the sample; the coverage strip shades the six overlaps. | ![Mesh ROIs](assets/screenshots/mesh-02-rois.png) **ROIs.** CAM-3's include region and an ignored strip on a 4096×2160 view, saved in source pixels. |
+| ![Mesh models](assets/screenshots/mesh-03-models.png) **Models.** PatchCore fitted for all seven cameras, thresholds calibrated on held-out normal samples; MetaUAS and MemSeg reported as not available in this environment. | ![Mesh inspection](assets/screenshots/mesh-04-inspect.png) **Inspect.** Seven tiles per sample with verdicts, heatmaps and defect boxes. |
+
+![Mesh inspection architecture](assets/diagrams/mesh-architecture.svg)
+
+- **Methods.** PatchCore (anomalib) runs in a separate engine process with PyTorch; a weight-free Patch Gaussian
+  baseline runs in the application. MetaUAS is wired through its official code, but its weights are gated and were
+  **not verified** here. **MemSeg is not implemented.**
+- **MVTec AD** (public benchmark, CPU): PatchCore image AUROC **0.982** on `grid` and **0.983** on `carpet`. At the
+  threshold taken from held-out normal images, `carpet` still flags 10 of 28 normal test images.
+- **Synthetic 4K samples** (procedural, 7 × 4096×2160 views per sample): PatchCore ranks defective camera views above
+  normal ones almost perfectly (camera-view AUROC 0.992, threshold-free), but thresholds calibrated on only two
+  held-out samples per camera flag **14 of 35 normal views**, so every test sample was called NG; the screenshot run
+  also missed one defective view. These thresholds are **not production-ready**, and none of these figures is a
+  factory result.
+
+![Review of the synthetic test samples](assets/screenshots/mesh-05-review.png)
 
 ## Production Context
 
 The portfolio implementation re-creates the ideas of a fabric-inspection system the author built and deployed in production. That original system, as stated on the author's CV:
 
-- **7-camera fabric inspection** with overlapping camera coverage and defined inspection regions;
+- **seven 4K Basler cameras** on two lines (five mesh types per line), with overlapping coverage and an inspection region per camera;
 - **anomaly detection with MetaUAS, PatchCore and MemSeg** as interchangeable strategies, learned from good fabric; NG when the top-k anomaly-map score exceeds a threshold chosen by an F1 sweep;
 - **about 93 % accuracy in real production**;
 - vision connected directly to the line: **detection → ESP32 → machine stop, warning light and audible alarm**, so defects are caught early enough for operator intervention;

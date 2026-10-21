@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="575" viewBox="0 0 1200 575">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748B"/></marker></defs>
+<rect x="0.5" y="0.5" width="1199" height="574" rx="16" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text x="40.0" y="52.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700" fill="#0F172A" text-anchor="start">Mesh inspection: architecture</text>
+<text x="40.0" y="80.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" fill="#64748B" text-anchor="start">A page of the SNY desktop application; PatchCore runs only in a separate engine process</text>
+<rect x="40" y="112" width="1120" height="128" rx="14" fill="#ECFDF5" stroke="#6EE7B7" stroke-width="1.5"/>
+<text x="60.0" y="146.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#047857" text-anchor="start">Mesh page</text>
+<text x="60.0" y="171.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="500" fill="#64748B" text-anchor="start">PyQt5 · FluentQt</text>
+<text x="60.0" y="186.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="500" fill="#64748B" text-anchor="start">Community + Pro</text>
+<rect x="230.0" y="126" width="220.0" height="100" rx="10" fill="#FFFFFF" stroke="#6EE7B7"/>
+<text x="242.0" y="150.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Setup</text>
+<text x="242.0" y="171.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Seven cameras assigned to two</text>
+<text x="242.0" y="186.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">machines (lines), field-of-view</text>
+<text x="242.0" y="201.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">offsets, coverage with overlaps</text>
+<text x="242.0" y="216.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">and gaps.</text>
+<rect x="462.0" y="126" width="220.0" height="100" rx="10" fill="#FFFFFF" stroke="#6EE7B7"/>
+<text x="474.0" y="150.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">ROIs</text>
+<text x="474.0" y="171.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Include and exclude regions per</text>
+<text x="474.0" y="186.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">camera and mesh type, drawn on</text>
+<text x="474.0" y="201.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">a preview, stored in source-</text>
+<text x="474.0" y="216.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">image pixels.</text>
+<rect x="694.0" y="126" width="220.0" height="100" rx="10" fill="#FFFFFF" stroke="#6EE7B7"/>
+<text x="706.0" y="150.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Models</text>
+<text x="706.0" y="171.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Method per mesh type,</text>
+<text x="706.0" y="186.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">thresholds calibrated on held-</text>
+<text x="706.0" y="201.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">out normal samples, fitting of</text>
+<text x="706.0" y="216.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">every camera.</text>
+<rect x="926.0" y="126" width="220.0" height="100" rx="10" fill="#FFFFFF" stroke="#6EE7B7"/>
+<text x="938.0" y="150.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Inspect and Review</text>
+<text x="938.0" y="171.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Seven tiles with verdicts and</text>
+<text x="938.0" y="186.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">heatmaps per sample; review</text>
+<text x="938.0" y="201.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">grid to confirm a defect or</text>
+<text x="938.0" y="216.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">mark a false alarm.</text>
+<line x1="600.0" y1="244" x2="600.0" y2="278" stroke="#64748B" stroke-width="1.6" marker-end="url(#arr)" marker-start="url(#arr)"/>
+<text x="614.0" y="266.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#475569" text-anchor="start">jobs off the GUI thread; results carry a request id</text>
+<rect x="40" y="282" width="1120" height="128" rx="14" fill="#EFF6FF" stroke="#93C5FD" stroke-width="1.5"/>
+<text x="60.0" y="316.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#1D4ED8" text-anchor="start">Core</text>
+<text x="60.0" y="341.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="500" fill="#64748B" text-anchor="start">mesh package · no Qt</text>
+<rect x="230.0" y="296" width="220.0" height="100" rx="10" fill="#FFFFFF" stroke="#93C5FD"/>
+<text x="242.0" y="320.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">config.py</text>
+<text x="242.0" y="341.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Machines (two lines, five mesh</text>
+<text x="242.0" y="356.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">types each), cameras, ROI sets,</text>
+<text x="242.0" y="371.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">thresholds; validated before</text>
+<text x="242.0" y="386.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">saving.</text>
+<rect x="462.0" y="296" width="220.0" height="100" rx="10" fill="#FFFFFF" stroke="#93C5FD"/>
+<text x="474.0" y="320.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">geometry.py</text>
+<text x="474.0" y="341.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Exact mappings between source,</text>
+<text x="474.0" y="356.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">preview and analysis pixels.</text>
+<rect x="694.0" y="296" width="220.0" height="100" rx="10" fill="#FFFFFF" stroke="#93C5FD"/>
+<text x="706.0" y="320.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">methods.py</text>
+<text x="706.0" y="341.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Patch Gaussian baseline in</text>
+<text x="706.0" y="356.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">process; PatchCore and MetaUAS</text>
+<text x="706.0" y="371.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">through the engine; MemSeg</text>
+<text x="706.0" y="386.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">listed but not implemented.</text>
+<rect x="926.0" y="296" width="220.0" height="100" rx="10" fill="#FFFFFF" stroke="#93C5FD"/>
+<text x="938.0" y="320.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">inspection.py</text>
+<text x="938.0" y="341.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Tiles inside the ROI, image and</text>
+<text x="938.0" y="356.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">pixel scores, thresholds,</text>
+<text x="938.0" y="371.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">defect regions above a minimum</text>
+<text x="938.0" y="386.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">area, one verdict per sample.</text>
+<line x1="600.0" y1="414" x2="600.0" y2="448" stroke="#64748B" stroke-width="1.6" marker-end="url(#arr)" marker-start="url(#arr)"/>
+<text x="614.0" y="436.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#475569" text-anchor="start">JSON lines over stdin/stdout; images as .npy files</text>
+<rect x="40" y="452" width="1120" height="83" rx="14" fill="#F5F3FF" stroke="#C4B5FD" stroke-width="1.5"/>
+<text x="60.0" y="486.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#6D28D9" text-anchor="start">Engine process</text>
+<text x="60.0" y="511.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="500" fill="#64748B" text-anchor="start">AI environment&#x27;s Python</text>
+<rect x="230.0" y="466" width="916.0" height="55" rx="10" fill="#FFFFFF" stroke="#C4B5FD"/>
+<text x="242.0" y="490.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">anomaly_engine.py</text>
+<text x="242.0" y="511.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">anomalib PatchCore (fit and score, CPU); MetaUAS when its code and weights are present (weights gated, not verified here).</text>
+</svg>

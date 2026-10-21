@@ -8,7 +8,7 @@ weights, line configuration or network details are published in this repository.
 
 | Area | Production system |
 |---|---|
-| Cameras | **7-camera fabric inspection** with overlapping coverage and defined inspection regions |
+| Cameras | **Seven 4K Basler cameras** on two lines (five mesh types per line), with overlapping coverage and a defined inspection region per camera |
 | AI | Unsupervised **anomaly detection** learned from good fabric, with **MetaUAS**, **PatchCore** and **MemSeg** as interchangeable strategies |
 | Decision | NG when the top-k anomaly-map score exceeds a threshold, chosen by an F1 sweep |
 | Result | **About 93 % accuracy in real production** |
